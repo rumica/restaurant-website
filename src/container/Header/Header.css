@@ -1,6 +1,4 @@
 .app__header {
-    display: flex;
-    justify-content: space-around;
     background-color: var(--color-black);
 }
 
@@ -13,6 +11,12 @@
     font-size: 90px;
 }
 
+.app__header-img {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end; 
+}
+
 .app__header-img img {
-   width: 500px;
+   width: 50%;
 }
